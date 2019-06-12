@@ -2,7 +2,7 @@
 This repository has python scripts to access google products (Big Query, Cloud SQL,Google sheets, Google Analytics).
 ***
 ```text
-To access BigQuery and Cloud SQL you must have a project on google cloud platform and a service account.
+To access BigQuery, Cloud SQL, Google Analytics, you must have a project on google cloud platform and a service account.
 
 ```
 How to get a project and a service account ?
