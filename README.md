@@ -33,3 +33,5 @@ $ python bq.py
 4   22         ?              35448   HS-grad              9   Married-civ-spouse          ?  ...   White   Female            0             0              22   United-States          <=50K
 
 ```
+
+### 
