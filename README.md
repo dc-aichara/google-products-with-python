@@ -40,4 +40,3 @@ $ cd google-products-with-python
 # Replace credentials and database server details with your credentials and database server details in csql.py.
 $ python3 csql.py
 ```
-

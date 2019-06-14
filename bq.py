@@ -1,10 +1,10 @@
 """
 This python script uses pandas_gbq python package to extract data
-from Google BigQuery as pandas frame .
+from Google BigQuery as pandas dataframe .
 """
 import pandas_gbq
 
-PROJECT_ID = "Your Project ID"
+PROJECT_ID = "Your Project ID" # Replace this with your project ID
 database = "bigquery-public-data"  # Replace this with your database name
 data_set = "ml_datasets"   # Replace this with your data set name
 data_table = "census_adult_income"  # Replace this with your table name
