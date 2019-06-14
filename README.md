@@ -7,7 +7,7 @@ To access BigQuery, Cloud SQL, Google Analytics, you must have a project on goog
 ```
 How to get a project and a service account ?
 
-[See documentation for help](https://cloud.google.com/iam/docs/creating-managing-service-accounts)
+See documentation for help [here](https://cloud.google.com/iam/docs/creating-managing-service-accounts) and [here](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
 
 
 ```text
