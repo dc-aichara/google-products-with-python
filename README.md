@@ -41,5 +41,5 @@ $ cd google-products-with-python
 $ python3 csql.py
 ```
 ### 3. Automating Google Sheets with python 
-gs.py is a self explaining python script.  
+`gs.py` is a self explanatory python script.  
 To learn more, please read [Medium](https://medium.com/@dc.aichara/play-with-google-spreadsheets-with-python-301dd4ee36eb) article. 
