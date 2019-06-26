@@ -40,3 +40,6 @@ $ cd google-products-with-python
 # Replace credentials and database server details with your credentials and database server details in csql.py.
 $ python3 csql.py
 ```
+### 3. Automating Google Sheets with python 
+gs.py is a self explaining python script.  
+To learn more, please read [Medium](https://medium.com/@dc.aichara/play-with-google-spreadsheets-with-python-301dd4ee36eb) article. 
