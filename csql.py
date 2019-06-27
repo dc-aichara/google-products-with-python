@@ -26,10 +26,10 @@ WHERE
 
 """
 # ----------------------------------------------------------------------------------------------------------------------
-# Extraction of user details and Total Acquisition
+# Get Query results as pandas DataFrame
 result = engine.execute(query)
 
-df = pd.DataFrame(result, columns=['col1', 'col2', ..., 'coln'])  # convert to pandas dataframe
+df = pd.DataFrame(result, columns=['col1', 'col2', ..., 'coln'])
 print(df.head())
 print(df.shape)
 

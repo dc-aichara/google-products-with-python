@@ -18,7 +18,7 @@ To access google sheets, you must have permission to edit google sheet to be acc
 ```
 
 ## Usage
-### 1. Extracting data from Google Big Query as pandas dataframe
+### 1. Extracting data from Google Big Query as pandas DataFrame
 When you run bq.py for the first time, it will produce a link to authorize and ask to enter authorization code. Copy & paste url in browser and authorize application.    
 ```text
 $ cd google-products-with-python
@@ -34,7 +34,7 @@ $ python3 bq.py
 
 ```
 
-### 2. Extracting data from google cloud sql database as pandas dataframe
+### 2. Extracting data from google cloud sql database as pandas DataFrame
 ```text
 $ cd google-products-with-python
 # Replace credentials and database server details with your credentials and database server details in csql.py.
@@ -43,3 +43,12 @@ $ python3 csql.py
 ### 3. Automating Google Sheets with python 
 `gs.py` is a self explanatory python script.  
 To learn more, please read [Medium](https://medium.com/@dc.aichara/play-with-google-spreadsheets-with-python-301dd4ee36eb) article. 
+
+# References : 
+```text
+1. https://cloud.google.com/sql/docs/mysql/connect-external-app#python
+2. https://cloud.google.com/bigquery/docs/pandas-gbq-migration
+3. https://pygsheets.readthedocs.io/en/latest/index.html
+4. https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
+
+```
