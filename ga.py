@@ -3,7 +3,7 @@
 # This python script would be used to get Google analytics data such as user, sessions etc on particular website
 # This uses Google Analytics API V4
 # Get VIEW_ ID From you Google Analytics web account
-# You can modify range of data or what data you want etc
+# You can modify range of data or what data you want
 ########################################################################################################################
 import argparse
 

@@ -19,7 +19,7 @@ To access google sheets, you must have permission to edit google sheet to be acc
 
 ## Usage
 ### 1. [Extracting data from Google Big Query as pandas DataFrame](https://github.com/dc-aichara/google-products-with-python/blob/master/bq.py)
-When you run bq.py for the first time, it will produce a link to authorize and ask to enter authorization code. Copy & paste url in browser and authorize application.    
+When you run `bq.py` for the first time, it will produce a link to authorize and ask to enter authorization code. Copy & paste url in browser and authorize application.    
 ```text
 $ cd google-products-with-python
 
@@ -45,6 +45,10 @@ $ python3 csql.py
 To learn more, please read [Medium](https://medium.com/@dcaichara/play-with-google-spreadsheets-with-python-301dd4ee36eb) article. 
 
 ### 4. [Getting Google Analytics data with python ](https://github.com/dc-aichara/google-products-with-python/blob/master/ga.py)
+- Get view id from your google analytics account and get client secret from google service account. 
+- Replace view id and client secret path in `ga.py`.
+- Edit start and end dates in `ga.py`.
+- Edit metrics on `ga.py`.
 
 # References : 
 ```text
