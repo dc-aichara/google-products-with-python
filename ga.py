@@ -92,7 +92,13 @@ def get_response(response):
 
       for values in dateRangeValues:
           ga_data.append(values.get('values', []))
+       # store data in google sheets
+      gc = pygsheets.authorize()
 
+      wks = gc.open('your google sheet name')[0]
+      wks.insert_rows(row =1, number =1)
+      wks.update_values('B2', ga_data)
+      wks.update_values('A2', [[date]])
   　return ga_data
 
 
