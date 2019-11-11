@@ -66,16 +66,17 @@ def get_report(analytics):
         'reportRequests': [
         {
           'viewId': VIEW_ID,
-          'dateRanges': [{'startDate': 'yesterday', 'endDate': 'yesterday'}],
-            'dimensions': [{'name': 'ga:date'}],
-          'metrics': [{'expression': 'ga:Users'},
-                      {'expression': 'ga:NewUsers'},
-                      {'expression': 'ga:Sessions'},
-                      {'expression': 'ga:Pageviews'},
-                      {'expression': 'ga:sessionsPerUser'},
-                      {'expression': 'ga:AvgSessionDuration'},
-                      {'expression': 'ga:bouncerate'}
-                      ]
+          'dateRanges': [{'startDate': 'yesterday', 'endDate': 'yesterday'}], # date range for data
+            'dimensions': [{'name': 'ga:date'}], # Dimension of table or table index
+          'metrics': [     # Variables / Columns
+              {'expression': 'ga:Users'},
+              {'expression': 'ga:NewUsers'},
+              {'expression': 'ga:Sessions'},
+              {'expression': 'ga:Pageviews'},
+              {'expression': 'ga:sessionsPerUser'},
+              {'expression': 'ga:AvgSessionDuration'},
+              {'expression': 'ga:bouncerate'}
+            ]
         }]
       }
   ).execute()
